@@ -31,6 +31,10 @@ El backend es una aplicación Express escrita en TypeScript.
 - The `src` directory contains the source code
 - The `prisma` directory contains the Prisma schema.
 
+## Características Implementadas
+
+- **Añadir Candidato:** Dashboard para reclutadores con un modal para registrar candidatos en el sistema, lo cual incluye información de contacto, educación, experiencia y subida del documento de CV (PDF/DOCX). Backend potenciado con API REST e integrado con `multer` para guardar los currículums a nivel local y `Prisma` para registrar los metadatos en la base de datos PostgreSQL.
+
 ## First steps
 
 To get started with this project, follow these steps:
@@ -126,6 +130,10 @@ El frontend es una aplicación React y sus archivos principales están ubicados 
 El backend es una aplicación Express escrita en TypeScript.
 - El directorio `src` contiene el código fuente
 - El directorio `prisma` contiene el esquema de Prisma.
+
+## Funcionalidades Implementadas
+
+- **Añadir Candidato:** Dashboard para reclutadores que permite registrar candidatos en el sistema mediante un formulario modal, recolectando sus datos y procesando la subida del archivo de currículum (CV) gracias al uso del paquete `multer` en backend hacia una base de datos con Prisma en Postgres.
 
 ## Primeros Pasos
 
